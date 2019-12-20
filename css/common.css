@@ -1,0 +1,46 @@
+table
+{
+    border:2px solid blue;
+}
+
+tr
+{
+    border:2px solid green;
+}
+td
+{
+    border:2px solid lightblue;
+}
+
+.header_row > td
+{
+    background-color: lightcoral;
+}
+.item_link > a:before
+{
+    display:block;
+    width:50px;
+    margin:10px;
+    text-align: center;
+    top:8px;
+}
+a.english:before
+{
+    content: url(../img/UnitedKingdom.png);
+}
+a.japanese:before
+{
+    content: url(../img/Japan.png);
+}
+a.korean:before
+{
+    content: url(../img/SouthKorea.png);
+}
+a.chinese:before
+{
+    content: url(../img/China.png);
+}
+.version
+{
+    text-align: center;
+}
