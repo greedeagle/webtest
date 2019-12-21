@@ -29,7 +29,6 @@ td:nth-of-type(4):before{
 td:nth-of-type(5):before{
 	content: url(../img/Japan.png);
 }
-
 td:nth-of-type(6):before{
 	content: url(../img/China.png);
 }
@@ -46,4 +45,8 @@ td:nth-of-type(5),
 td:nth-of-type(6){
 	text-align: center;
 	width: 90px;
+}
+.version
+{
+    text-align: center;
 }
