@@ -1,44 +1,50 @@
-table
-{
-    border:2px solid blue;
+table{
+	border:2px solid blue;
+	width: 1000px;
 }
-
-tr
-{
-    border:2px solid green;
+tr{
+	border:2px solid green;
 }
-td
-{
-    border:2px solid lightblue;
+td{
+	border:2px solid lightblue;
+	padding: 2px 5px;
 }
-
-.header_row > td
-{
-    background-color: lightcoral;
+th{
+	background: lightcoral;
+	padding: 2px 5px;
 }
-.item_link > a:before
-{
+td > a:before{
     display:block;
     width:50px;
     margin:10px;
     text-align: center;
     top:8px;
 }
-a.english:before
-{
+td:nth-of-type(3):before{
     content: url(../img/UnitedKingdom.png);
 }
-a.japanese:before
-{
-    content: url(../img/Japan.png);
+td:nth-of-type(4):before{
+	content: url(../img/SouthKorea.png);
 }
-a.korean:before
-{
-    content: url(../img/SouthKorea.png);
+td:nth-of-type(5):before{
+	content: url(../img/Japan.png);
 }
-a.chinese:before
-{
-    content: url(../img/China.png);
+td:nth-of-type(6):before{
+	content: url(../img/China.png);
+}
+td:nth-of-type(1){
+	width: 10px;
+	text-align: center;
+}
+td:nth-of-type(2){
+	width: 150px;
+}
+td:nth-of-type(3),
+td:nth-of-type(4),
+td:nth-of-type(5),
+td:nth-of-type(6){
+	text-align: center;
+	width: 90px;
 }
 .version
 {
